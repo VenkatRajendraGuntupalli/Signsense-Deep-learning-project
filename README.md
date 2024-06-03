@@ -27,6 +27,8 @@
 ## Introduction
 
 Road safety is a paramount concern worldwide, and the absence of clear indications and signage on unmarked roads poses significant challenges in ensuring safe transportation. In response to this pressing issue, we present "SignSense," an innovative deep learning-driven approach designed to identify and recommend the appropriate road caution signs for unmarked roads. By leveraging cutting-edge deep learning techniques, SignSense aims to mitigate the risks associated with unmarked roads and enhance overall road safety.
+![image](https://github.com/VenkatRajendraGuntupalli/Signsense-Deep-learning-project/assets/89690181/d8ec5e6e-55dc-44a1-89ad-e633abd694c8)
+
 
 ## Project Description
 
@@ -70,7 +72,17 @@ We used TensorFlow as our primary deep learning framework and Google Colab as ou
 
 Our model successfully detects road hazards and recommends appropriate caution signs. For example, an input with an S curve road results in an S curve caution sign, and a straight road gets a speed limit caution sign to prevent accidents due to over-speeding.
 
-![Example Result](path_to_example_image)
+![image](https://github.com/VenkatRajendraGuntupalli/Signsense-Deep-learning-project/assets/89690181/bd562e1c-73e0-4159-af7b-04944a1a902b)
+
+The above are the training and Validation accuracies before using the pretrained model.
+![image](https://github.com/VenkatRajendraGuntupalli/Signsense-Deep-learning-project/assets/89690181/799d9896-ed9f-44f1-8c35-ce0f7153e185)
+The above is the training and validation accuracies after the pre-trainedmodel MobileNetV2.
+
+The below are the results for our model, as we can see here the input with S curve road gets an sign image of S curve, which cautions the driver.
+![image](https://github.com/VenkatRajendraGuntupalli/Signsense-Deep-learning-project/assets/89690181/6cef68fa-28f7-4b55-bd2e-77fcc32f6aa0)
+
+Here the straight road gets a caution sign to limit the speed since we do not want accidents to happen due to over speeding on an empty road.
+![image](https://github.com/VenkatRajendraGuntupalli/Signsense-Deep-learning-project/assets/89690181/f72915c0-e58a-4e97-8808-834b877dd144)
 
 ## Conclusion
 
